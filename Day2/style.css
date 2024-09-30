@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 table{
     width: 100%;
     border-style: dashed;
@@ -10,4 +14,10 @@ table{
     font-size: 60px;
     background-color: aqua;
     color: black;
+}
+#row1 {
+    background-color: blueviolet;
+}
+#row2 {
+    background-color: brown;
 }
