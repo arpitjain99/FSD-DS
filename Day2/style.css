@@ -1,0 +1,13 @@
+table{
+    width: 100%;
+    border-style: dashed;
+    border-color: royalblue;
+    border-width: 5px;
+    border-radius: 12px;
+}
+#heading {
+    text-align: center;
+    font-size: 60px;
+    background-color: aqua;
+    color: black;
+}
