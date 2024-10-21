@@ -1,8 +1,18 @@
-const students = [
-    {name: 'Alice',score: 50},
-    {name: 'Bob',score: 65},
-    {name: 'David',score: 80},
-    {name: 'Joe',score: 75},
-];
-let arr = students.filter(students => students.score > 60).map(students => students.score*2).reduce( (x,y) => x + y, 0 );
-console.log(arr);
+sayhello = () => {
+    console.log("I am Hello Function");
+};
+
+console.log("Task Started");
+sayhello();
+console.log("Task End");
+
+console.log("start");
+setTimeout( () => {
+    console.log("first task completed");
+    setTimeout(()=>{
+        console.log("second task completed");
+        setTimeout(()=>{
+            console.log("third task completed");
+        }, 3000);
+    }, 2000);
+}, 1000);
